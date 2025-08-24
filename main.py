@@ -229,6 +229,3 @@ class Cookies(BaseModel):
     session_id: str
     fatebook_tracker: str | None = None
     googall_tracker: str | None = None
-
-#In short: You can treat cookies like structured data, not just raw strings.
-#FastAPI + Pydantic = automatic validation + clean design.
